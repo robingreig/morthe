@@ -21,10 +21,10 @@ GPIO.setup(pushNum,GPIO.IN, pull_up_down=GPIO.PUD_UP) # sets variable pushNum to
 state = GPIO.input(pushNum)
 
 if (state):
-  GPIO.output(ledNum,GPIO.HIGH) # turn ledNum on
+  GPIO.output(ledNum,GPIO.LOW) # turn ledNum on
   print("Pin 16 is measured on")
 else:
-  GPIO.output(ledNum,GPIO.LOW) # turn ledNum off
+  GPIO.output(ledNum,GPIO.HIGH) # turn ledNum off
   print("Pin 16 is measured off")
 
 
