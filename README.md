@@ -11,3 +11,6 @@ https://io.adafruit.com
 
 https://randomnerdtutorials.com/
 
+https://raspi.tv/rpi-gpio
+
+
